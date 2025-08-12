@@ -7,7 +7,7 @@
 
 
 A secure, sanitized cryptocurrency tracker built with **CustomTkinter**, **Matplotlib**, and the **CoinGecko API**.
-This app fetches real-time Bitcoin (BTC) and Ethereum (ETH) prices, updates a live chart, and color-codes changes.
+This app fetches real-time Bitcoin (BTC) and Ethereum (ETH) prices, and updates a live price line chart of recent activity.
 
 ## Features
 

@@ -14,9 +14,6 @@ This app fetches real-time Bitcoin (BTC) and Ethereum (ETH) prices, updates a li
 * **Real-time crypto tracking** (BTC & ETH in USD) via [CoinGecko API](https://www.coingecko.com/en/api)
 * **Live charts** with historical price visualization
 * **Color-coded price changes**
-
-  * Yellow = Price increase
-  * White = Price decrease or unchanged
 * **Safe UI updates** using thread-safe queues
 * **Sanitization** of all incoming API data with `bleach` to prevent injection attacks
 * **Dark-themed modern GUI** using `customtkinter`

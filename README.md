@@ -78,7 +78,7 @@ build
 
 
 ```
-docker build -t humoid-trader .
+docker build -t crypto-ticker-gui .
 ```
 
 run

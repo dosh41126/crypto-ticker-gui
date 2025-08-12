@@ -122,15 +122,6 @@ https://github.com/dosh41126/crypto-ticker-gui
 ```
 
 build
-
-
-```
-docker build -t crypto-ticker-gui .
-```
-
-run
-
-build
 ```bash
 docker build -t crypto-ticker-gui .
 ```

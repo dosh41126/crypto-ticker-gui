@@ -132,5 +132,9 @@ docker build -t crypto-ticker-gui .
 run
 
 ```bash
+xhost +local:docker
+```
+
+```bash
 docker run -it --rm   --cap-add=NET_ADMIN   -e DISPLAY=$DISPLAY   -v /tmp/.X11-unix:/tmp/.X11-unix   btc_tracker
 ```

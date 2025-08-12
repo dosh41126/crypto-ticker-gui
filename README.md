@@ -120,7 +120,7 @@ newgrp docker
 
 clone
 ```
-https://github.com/dosh41126/crypto-ticker-gui
+git clone https://github.com/dosh41126/crypto-ticker-gui
 ```
 
 build

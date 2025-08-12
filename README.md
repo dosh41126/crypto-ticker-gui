@@ -1,5 +1,10 @@
+# Crypto Ticker GUI
 
-# Crypto Ticker GUI (Eth and Bitcoin Via Coingecko API)
+![Crypto Ticker GUI Screenshot](https://raw.githubusercontent.com/dosh41126/crypto-ticker-gui/main/screenshot.png)
+
+*Screenshot of the Crypto Ticker GUI in action — showcasing real-time BTC and ETH tracking features.*
+
+
 
 A secure, sanitized cryptocurrency tracker built with **CustomTkinter**, **Matplotlib**, and the **CoinGecko API**.
 This app fetches real-time Bitcoin (BTC) and Ethereum (ETH) prices, updates a live chart, and color-codes changes.

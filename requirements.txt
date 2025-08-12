@@ -1,0 +1,4 @@
+requests==2.31.0
+customtkinter==5.2.2
+matplotlib==3.10.5
+bleach==6.2.0

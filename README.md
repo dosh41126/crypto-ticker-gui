@@ -1,5 +1,52 @@
 
+# Crypto Ticker GUI (Eth and Bitcoin Via Coingecko API)
 
+A secure, sanitized cryptocurrency tracker built with **CustomTkinter**, **Matplotlib**, and the **CoinGecko API**.
+This app fetches real-time Bitcoin (BTC) and Ethereum (ETH) prices, updates a live chart, and color-codes changes.
+
+## Features
+
+* **Real-time crypto tracking** (BTC & ETH in USD) via [CoinGecko API](https://www.coingecko.com/en/api)
+* **Live charts** with historical price visualization
+* **Color-coded price changes**
+
+  * Yellow = Price increase
+  * White = Price decrease or unchanged
+* **Safe UI updates** using thread-safe queues
+* **Sanitization** of all incoming API data with `bleach` to prevent injection attacks
+* **Dark-themed modern GUI** using `customtkinter`
+
+## Requirements
+
+Python **3.9+** recommended.
+
+
+## How It Works
+
+1. **Data Fetching**
+
+   * Uses `requests` to call CoinGecko API every 5 seconds
+   * BTC and ETH prices are parsed and sanitized
+2. **Sanitization**
+
+   * All incoming strings go through `bleach.clean()`
+   * Numeric values are verified as `int` or `float`
+3. **UI Updates**
+
+   * Data updates are queued and processed on the main thread to avoid race conditions
+4. **Charts**
+
+   * Two stacked line charts display BTC and ETH price history
+   * Oldest data points are removed after 50 entries
+
+## Security Measures
+
+* **Bleach sanitization** for all text
+* **Thread-safe queues** to prevent race conditions
+* **Minimal dependencies** for reduced attack surface
+ 
+
+# Install Docker , Build Image , Run App with Docker
 
 install docker
 
